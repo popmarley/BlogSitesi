@@ -32,5 +32,7 @@ namespace BlogSitesi.Model
 
 
         public virtual Media Media { get; set; }
+        public virtual List<ContentCategory>ContentCategories { get; set; }
+        public virtual List<ContentTag>ContentTags { get; set; }
     }
 }
