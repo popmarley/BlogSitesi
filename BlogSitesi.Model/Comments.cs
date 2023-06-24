@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlogSitesi.Model
 {
-	internal class Comments : Core.ModelBase
+	public class Comments : Core.ModelBase
 	{
 		public int ContentID { get; set; }
 		public string FullName { get; set; }
