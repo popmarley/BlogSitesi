@@ -10,4 +10,14 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogSitesi.Data\BlogSitesi.Data.csproj" />
+    <ProjectReference Include="..\BlogSitesi.Model\BlogSitesi.Model.csproj" />
+    <ProjectReference Include="..\BlogSitesi.WebUI.Infrastructure\BlogSitesi.WebUI.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
